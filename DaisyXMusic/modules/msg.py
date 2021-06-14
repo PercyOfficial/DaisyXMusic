@@ -17,15 +17,15 @@
 import os
 from DaisyXMusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n😋I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels this is our support group @slbotzone ⚒️ my creator is @supunma 🇱🇰.\n\n✅ Send me /help for more info and join with us 🇱🇰."
       HELP_MSG = [
         ".",
 f"""
 **Hey 👋 Welcome back to {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+🎧 {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+🎧 Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 """,
 
 f"""
@@ -68,25 +68,25 @@ f"""
 f"""
 **=>> Channel Music Play 🛠**
 
-⚪️ For linked group admins only:
+🎧 For linked group admins only:
 
-- /cplay [song name] - play song you requested
-- /cdplay [song name] - play song you requested via deezer
-- /csplay [song name] - play song you requested via jio saavn
-- /cplaylist - Show now playing list
-- /cccurrent - Show now playing
-- /cplayer - open music player settings panel
-- /cpause - pause song play
-- /cresume - resume song play
-- /cskip - play next song
-- /cend - stop music play
-- /userbotjoinchannel - invite assistant to your chat
+- 🎙️/cplay [song name] - play song you requested
+- 🎙️/cdplay [song name] - play song you requested via deezer
+- 🎙️/csplay [song name] - play song you requested via jio saavn
+- 🎙️/cplaylist - Show now playing list
+- 🎙️/cccurrent - Show now playing
+- 🎙️/cplayer - open music player settings panel
+- 🎙️/cpause - pause song play
+- 🎙️/cresume - resume song play
+- 🎙️/cskip - play next song
+- 🎙️/cend - stop music play
+- 🎙️/userbotjoinchannel - invite assistant to your chat
 
 channel is also can be used instead of c ( /cplay = /channelplay )
 
-⚪️ If you donlt like to play in linked group:
+🎧 If you donlt like to play in linked group:
 
-1) Get your channel ID.
+1) Get your channel ID දන්නෙ නැත්නම් මේ group එකෙන් අහන්න @slbotzone .
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
@@ -94,13 +94,13 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 """,
 
 f"""
-**=>> More tools 🧑‍🔧**
+**=>> ⚒️ More tools 🛠️**
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 
-**=>> Commands for Sudo Users ⚔️**
+**=>> 🛠️  Commands for Sudo Users 😋**
 
  - /userbotleaveall - remove assistant from all chats
  - /gcast <reply to message> - globally brodcast replied message to all chats
